@@ -1,0 +1,26 @@
+
+knex
+http://knexjs.org/
+
+//////////////////////
+install sqlite3:
+npm install sqlite3 --save
+
+uninstall:
+npm uninstall sqlite3
+//////////////////////
+
+//////////////////////
+up: criação da tabela
+down: caso precise recriar tabela, deletar.
+
+criar migrations:
+http://knexjs.org/#Installation-migrations
+npx knex migrate:make {create_ongs - nome da migration}
+
+//executar sempre depois de configurar migration
+npx knex migrate:latest
+migration method:
+//////////////////////
+
+npm install cors
