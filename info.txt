@@ -1,4 +1,4 @@
-
+﻿
 knex
 http://knexjs.org/
 
@@ -24,3 +24,7 @@ migration method:
 //////////////////////
 
 npm install cors
+
+///////////////////////
+iniciar expo no tunnel
+expo start --tunnel
